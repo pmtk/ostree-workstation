@@ -20,6 +20,7 @@ modules:
       - sway-config-fedora
       - wezterm
       - krb5-workstation
+      - pavucontrol
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
