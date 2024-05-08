@@ -32,7 +32,6 @@ modules:
         - com.slack.Slack
         - com.spotify.Client
         - org.mozilla.firefox
-        - com.visualstudio.code
         - org.gnome.DejaDup
         - org.localsend.localsend_app
 
