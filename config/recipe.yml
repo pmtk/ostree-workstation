@@ -35,9 +35,5 @@ modules:
         - org.gnome.DejaDup
         - org.localsend.localsend_app
 
-  - type: script
-    scripts:
-      - get-apps.sh
-
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
