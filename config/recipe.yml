@@ -16,12 +16,14 @@ modules:
   - type: rpm-ostree
     repos:
       - https://copr.fedorainfracloud.org/coprs/wezfurlong/wezterm-nightly/repo/fedora-%OS_VERSION%/wezfurlong-wezterm-nightly-fedora-%OS_VERSION%.repo
+      - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
     install:
       - sway-config-fedora
       - wezterm
       - krb5-workstation
       - pavucontrol
       - dunst
+      - tailscale
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
